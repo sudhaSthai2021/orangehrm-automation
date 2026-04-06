@@ -1,0 +1,28 @@
+{
+  "name": "orange-hrm-automation",
+  "version": "1.0.0",
+  "scripts": {
+    "playwright": "npx playwright test",
+    "cucumber": "npx cucumber-js --require-module ts-node/register --require features/step-definitions/**/*.ts --format json:reports/cucumber-report.json features/**/*.feature",
+    "report": "cucumber-js --require-module ts-node/register --require features/**/*.ts --format json:reports/cucumber-report.json",
+    "html-report": "ts-node reports/report.ts",
+    "report:all": "npm run cucumber && npm run html-report",
+    "smoke": "cucumber-js --tags @smoke",
+    "regression": "cucumber-js --tags @regression",
+    "test:all-headed-report": "npx playwright test --headed && npx playwright show-report",
+    "login": "cucumber-js --require-module ts-node/register --require features/step-definitions/**/*.ts --require features/support/**/*.ts --tags @login",
+    "dashboard": "cucumber-js --require-module ts-node/register --require features/step-definitions/**/*.ts --require features/support/**/*.ts --tags @dashboard",
+    "forgot": "cucumber-js --require-module ts-node/register --require features/step-definitions/**/*.ts --require features/support/**/*.ts --tags @forgotpassword",
+    "forgot:smoke": "cucumber-js --require-module ts-node/register --require features/step-definitions/**/*.ts --require features/support/**/*.ts --tags \"@smoke and @forgotpassword\""
+
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^12.7.0",
+    "@playwright/test": "^1.58.2",
+    "@types/cucumber": "^6.0.1",
+    "@types/node": "^25.4.0",
+    "multiple-cucumber-html-reporter": "^3.10.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}

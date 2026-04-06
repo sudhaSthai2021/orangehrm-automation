@@ -1,0 +1,1199 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "dashboard-functionality;verify-dashboard-page-is-displayed",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Verify dashboard page is displayed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6178722299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "the user is logged into the OrangeHRM application",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7469837199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "the dashboard page should be visible",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4848799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "the dashboard URL contains \"dashboard\"",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:30"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5379699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 49164999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 5
+          },
+          {
+            "name": "@dashboard",
+            "line": 5
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dashboard-functionality;verify-quick-launch-section-is-displayed",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Verify Quick Launch section is displayed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4933370700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "the user is logged into the OrangeHRM application",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9258714899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user navigates to the dashboard",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:34"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5861700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the Quick Launch section should be visible",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5151499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 20783999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 11
+          },
+          {
+            "name": "@dashboard",
+            "line": 11
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dashboard-functionality;verify-assign-leave-navigation",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Verify Assign Leave navigation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 27778321599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "the user is logged into the OrangeHRM application",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9511505599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "the user clicks on Assign Leave",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5116487700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the user should be navigated to the Assign Leave page",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:50"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12154300
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 61955300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 17
+          },
+          {
+            "name": "@dashboard",
+            "line": 17
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dashboard-functionality;verify-leave-list-navigation",
+        "keyword": "Scenario",
+        "line": 24,
+        "name": "Verify Leave List navigation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5297724300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "the user is logged into the OrangeHRM application",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6580140600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "the user clicks on Leave List",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:54"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3860352100
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "the user should be navigated to the Leave List page",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 15126099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 35732600
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 23
+          },
+          {
+            "name": "@dashboard",
+            "line": 23
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dashboard-functionality;verify-time-sheets-navigation",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Verify Time Sheets navigation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5161821899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "the user is logged into the OrangeHRM application",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5487411999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 31,
+            "name": "the user clicks on Time Sheets",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:62"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2676795400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 32,
+            "name": "the user should be navigated to the Time Sheets page",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:66"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7662800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22943099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 29
+          },
+          {
+            "name": "@dashboard",
+            "line": 29
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dashboard-functionality;verify-apply-leave-navigation",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "Verify Apply Leave navigation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4754443700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "the user is logged into the OrangeHRM application",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5181039400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "the user clicks on Apply Leave",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:70"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2699852700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "the user should be navigated to the Apply Leave page",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:74"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18200499
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 17830300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 35
+          },
+          {
+            "name": "@dashboard",
+            "line": 35
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dashboard-functionality;verify-my-leave-navigation",
+        "keyword": "Scenario",
+        "line": 42,
+        "name": "Verify My Leave navigation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4739504199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "the user is logged into the OrangeHRM application",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6274730800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 43,
+            "name": "the user clicks on My Leave",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:78"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2633660899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 44,
+            "name": "the user should be navigated to the My Leave page",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16360800
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 19373999
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 41
+          },
+          {
+            "name": "@dashboard",
+            "line": 41
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "dashboard-functionality;verify-my-timesheet-navigation",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "Verify My Timesheet navigation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14583990999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "the user is logged into the OrangeHRM application",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:12"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7954187199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "the user clicks on My Timesheet",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:86"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7016473700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "the user should be navigated to the My Timesheet page",
+            "match": {
+              "location": "features\\step-definitions\\dashboard.steps.ts:90"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 10526599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 28943899
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 47
+          },
+          {
+            "name": "@dashboard",
+            "line": 47
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "dashboard-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Dashboard functionality",
+    "tags": [],
+    "uri": "features\\dashboard.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "forgot-password;forgot-password-validation",
+        "keyword": "Scenario Outline",
+        "line": 15,
+        "name": "Forgot password validation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6063374200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4588054000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user navigates to the Forgot Password page",
+            "match": {
+              "location": "features\\step-definitions\\forgotPassword.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5572232500
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user submits username \"Admin\"",
+            "match": {
+              "location": "features\\step-definitions\\forgotPassword.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80001699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the \"success\" message should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\forgotPassword.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5232373099
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 26577300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 7
+          },
+          {
+            "name": "@forgotpassword",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "forgot-password;forgot-password-validation",
+        "keyword": "Scenario Outline",
+        "line": 16,
+        "name": "Forgot password validation",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 14845568800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5171661900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user navigates to the Forgot Password page",
+            "match": {
+              "location": "features\\step-definitions\\forgotPassword.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3366941700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "the user submits username \"\"",
+            "match": {
+              "location": "features\\step-definitions\\forgotPassword.steps.ts:11"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81319799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "the \"Required\" message should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\forgotPassword.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7748699
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 20397700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 7
+          },
+          {
+            "name": "@forgotpassword",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "forgot-password;cancel-forgot-password-request",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Cancel forgot password request",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 12367970800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6262585699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "the user navigates to the Forgot Password page",
+            "match": {
+              "location": "features\\step-definitions\\forgotPassword.steps.ts:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3610189499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user clicks the Cancel button",
+            "match": {
+              "location": "features\\step-definitions\\forgotPassword.steps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2684277299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "the login page should be displayed",
+            "match": {
+              "location": "features\\step-definitions\\forgotPassword.steps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1907121599
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 29095200
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 18
+          },
+          {
+            "name": "@forgotpassword",
+            "line": 18
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "forgot-password",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Forgot Password",
+    "tags": [],
+    "uri": "features\\forgotPassword.feature"
+  },
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "login-functionality;login-with-valid-credentials",
+        "keyword": "Scenario",
+        "line": 4,
+        "name": "Login with valid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22164482599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2577644400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "the user enters \"Admin\" and \"admin123\"",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2472988199
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "the login result should be \"Dashboard\"",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 911589400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23832699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke",
+            "line": 3
+          },
+          {
+            "name": "@login",
+            "line": 3
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;login-validation-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 18,
+        "name": "Login validation with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4352043900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2577186399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user enters \"Admin\" and \"wrong123\"",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 69791399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the login result should be \"Error\"",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2533099600
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 22513699
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 10
+          },
+          {
+            "name": "@login",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;login-validation-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 19,
+        "name": "Login validation with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 15551784600
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2697861399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user enters \"WrAdmin\" and \"admin123\"",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1356170599
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the login result should be \"Error\"",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 916504899
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23376099
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 10
+          },
+          {
+            "name": "@login",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "login-functionality;login-validation-with-invalid-credentials",
+        "keyword": "Scenario Outline",
+        "line": 20,
+        "name": "Login validation with invalid credentials",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4585983299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 12,
+            "name": "the user is on the login page",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2858044299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 13,
+            "name": "the user enters \"WrAdmin\" and \"Wrong123\"",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 76722799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "the login result should be \"Error\"",
+            "match": {
+              "location": "features\\step-definitions\\login.steps.ts:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3596878400
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18665900
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression",
+            "line": 10
+          },
+          {
+            "name": "@login",
+            "line": 10
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-functionality",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Login functionality",
+    "tags": [],
+    "uri": "features\\login.feature"
+  }
+]

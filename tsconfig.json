@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "baseUrl": ".",
+    "types": ["node", "@cucumber/cucumber"],
+    "outDir": "dist"
+  },
+  "include": [
+    "pages/**/*.ts",
+    "tests/**/*.ts",
+    "features/**/*.ts",
+    "features/support/**/*.ts"
+  ],
+  "exclude": ["**/*.d.ts", "node_modules"]
+}
