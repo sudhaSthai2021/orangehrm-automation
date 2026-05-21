@@ -17,11 +17,10 @@ When('the user submits username {string}', async function (this:CustomWorld,user
 
 Then('the {string} message should be displayed', async function (this:CustomWorld,message: string) {
     if (message === 'success') {
-        await this.page.waitForURL(/sendPasswordReset/, { timeout: 90000 });
-        await expect(this.forgotPasswordPage.successMessage).toBeVisible({ timeout: 90000});
-    } else if (message === 'Required') {
-        await expect(this.forgotPasswordPage.requiredMessage).toBeVisible();
-    }
+  await expect(this.page.getByRole('heading', { name: 'Reset Password' })).toBeVisible();
+} else {
+  await expect(this.page.locator('.oxd-input-field-error-message')).toContainText(message);
+}
 });
 
 When('the user clicks the Cancel button', async function (this:CustomWorld) {

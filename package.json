@@ -14,7 +14,6 @@
     "dashboard": "cucumber-js --require-module ts-node/register --require features/step-definitions/**/*.ts --require features/support/**/*.ts --tags @dashboard",
     "forgot": "cucumber-js --require-module ts-node/register --require features/step-definitions/**/*.ts --require features/support/**/*.ts --tags @forgotpassword",
     "forgot:smoke": "cucumber-js --require-module ts-node/register --require features/step-definitions/**/*.ts --require features/support/**/*.ts --tags \"@smoke and @forgotpassword\""
-
   },
   "devDependencies": {
     "@cucumber/cucumber": "^12.7.0",
